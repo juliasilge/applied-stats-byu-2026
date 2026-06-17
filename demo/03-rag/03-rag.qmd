@@ -47,6 +47,12 @@ for (page in pages) {
 ragnar_store_build_index(store)
 ```
 
+Or if you have already created the store:
+
+```{r}
+store <- ragnar_store_connect(store_location)
+```
+
 ## Inspect what the store retrieves
 
 Which chunks surface for a given question? The store inspector app lets you try
