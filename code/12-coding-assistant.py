@@ -23,11 +23,11 @@ dotenv.load_dotenv()
 # try again.
 
 # %% task
-chat = chatlas.ChatAuto("anthropic/claude-3-5-sonnet-20241022")
+chat = chatlas.ChatAnthropic()
 
 chat.chat(
     # Extra context from package docs
-    here("_solutions/15_coding-assistant/docs.py.md").read_text(),
+    here("code/12-coding-assistant-docs-py.md").read_text(),
     # Task prompt
     "Write a simple function that takes latitude and longitude as inputs "
     "and returns the weather forecast for that location using the NWS "

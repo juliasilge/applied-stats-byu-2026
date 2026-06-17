@@ -59,8 +59,9 @@ type_recipe <- type_object(
 )
 
 # %% Pass the recipe text and the Pydantic model to get structured output
-chat <- chat("openai/gpt-4.1-nano")
+chat <- chat_anthropic()
 recipe <- chat$chat_structured(txt_waffles, type = type_recipe)
 
 # %% We get a list back, so you can access fields directly
 recipe$title
+recipe$ingredients
