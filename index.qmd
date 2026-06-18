@@ -47,7 +47,7 @@ You will also need API credentials for at least one LLM provider; we will make a
 
 Code files for working along [are available on GitHub](https://github.com/juliasilge/applied-stats-byu-2026/tree/main/code).
 
-### Tuesday, 17 June 2026: Build on AI
+### Wednesday, 17 June 2026: Build on AI
 
 | Time          | Activity                                                                   |
 | :------------ | :------------------------------------------------------------------------- |
@@ -59,7 +59,7 @@ Code files for working along [are available on GitHub](https://github.com/julias
 | 14:40 - 15:00 | *Break*                                                             |
 | 15:00 - 16:15 | [Beyond prompts](slides/04-beyond-prompts.html)                                |
 
-### Wednesday, 18 June 2026: Build with AI
+### Thursday, 18 June 2026: Build with AI
 
 | Time          | Activity                                                                   |
 | :------------ | :------------------------------------------------------------------------- |
